@@ -1,0 +1,6 @@
+/* Font Family */
+
+@font-face {
+  font-family: 'Tungsten';
+  src: local('Tungsten'), url('./tungsten_font.woff') format('woff');
+}
