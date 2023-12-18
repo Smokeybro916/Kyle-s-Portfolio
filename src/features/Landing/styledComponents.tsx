@@ -42,5 +42,4 @@ export const Banner = styled.div`
   justify-content: center;
   align-items: flex-start;
   font-size: 7rem;
-  
 `
