@@ -42,4 +42,11 @@ export const Banner = styled.div`
   justify-content: center;
   align-items: flex-start;
   font-size: 7rem;
+  flex-flow: column wrap;
+`
+export const Image = styled.div`
+width: 100%;
+display: flex;
+justify-content: flex-end;
+
 `

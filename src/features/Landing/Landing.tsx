@@ -1,6 +1,7 @@
 import { FC } from 'react'
+import selfie1 from 'src/features/Landing/selfie1.jpg'
 
-import { Banner, LandingContainer, Logo, Navbar, NavbarOption, NavbarOptions } from './styledComponents'
+import { Banner,Image, LandingContainer, Logo, Navbar, NavbarOption, NavbarOptions } from './styledComponents'
 
 const Landing: FC = () => {
   return (
@@ -17,6 +18,9 @@ const Landing: FC = () => {
         <span>WELCOME</span>
         <span>TO MY</span> 
         <span>PORTFOLIO</span>
+        <Image>
+          <img src={selfie1} alt="Picture of me" style={{width:'200px', height:'250px'}}></img>
+        </Image>
       </Banner>
     </LandingContainer>
   )
